@@ -1,0 +1,148 @@
+
+/* Wrapper includes Image, Site Info and Workshops */
+
+#leftwrapper
+{
+  width:80%;
+  float:left;
+  padding-bottom:3%;
+}
+#leftCol
+{
+  width:25%;
+  float:left;
+  margin-left:5%;
+  padding-bottom:97.56;
+  background-size:cover;
+  background-position:center;
+  background-size:contain;
+}
+audio
+{
+  width:100%;
+}
+#middle
+{
+  width:55%;
+  float:right;
+  font-weight:bold;
+}
+
+#rightCol
+{
+  width:20%;
+  float:right;
+}
+#rightCol a
+{
+    color:#0000ff;
+    font-weight:bold;
+}
+
+#rightCol a:hover
+{
+    color:#9900cc;
+    font-weight:bold;
+}
+/* second wrapper includes New/unlimited Member and Features */
+#sec_leftwrapper
+{
+  width:80%;
+  float:left;
+  margin-bottom:30px;
+  margin-left:10%;
+ }
+#newmem
+{
+  float:left;
+  width:38%;
+}
+#unmem
+{
+  float:left;
+  width:38%;
+}
+#feat
+{
+  float:right;
+  width:20%;
+  margin-left:2%;
+}    
+.regbutton
+{
+    width:30%;
+    padding-bottom:6%;
+	font-weight:bolder;
+	padding-top:4%;
+    border:2px purple inset;
+    background-color:#ff99cc;
+}
+/* Use of pseudo class focus for register button */
+.regbutton:focus
+{
+   background-color:#4dd2ff;
+} 
+.regbutton:hover
+{
+	background-color:#9900cc;
+}
+ figure
+ {
+   margin:1em 0;
+ }
+img
+{
+   max-width:100%;
+   vertical-align:middle;
+   border:0;
+}
+
+@media screen and (min-width:150px) and (max-width:600px)
+{
+	 body
+	 {
+		 font-size:100%;
+		 
+	 }
+	
+    #middle
+	{
+		width:100%;
+     	float:left;	
+	}
+	#rightCol
+	{
+		width:100%;
+     	float:left;		
+	}
+	#leftCol
+	{
+		width:100%;
+     	float:right;
+        		
+	}
+	#feat
+	{
+		width:100%;
+     	float:right;
+        margin-top:1%;		
+	}
+    #newmem,#unmem
+	{
+		width:50%;
+     	float:left;	
+		height:150px;
+	}
+
+    #sitename,h2
+    {
+      font-size:100%;
+    }
+   .getintouch
+    {
+      font-size:100%;
+      margin-top:1%;
+      padding:1%;
+     }
+	
+}	

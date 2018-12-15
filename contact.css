@@ -1,0 +1,107 @@
+#contact 
+{
+   width:100%;
+}
+/* Animation for heading Get In Touch */
+.getintouch
+{  
+   width:100%;
+   color:#800080;
+   margin-top:7%;
+   padding-top:5%;
+   text-shadow: 2px 2px #FF0000;
+ } 
+
+/* Use of pseudo element before and after */
+h2::before
+{
+  content:url("images/point.jpg");
+}
+h2::after
+{
+  content:url("images/point.jpg");
+}
+
+#name
+{
+   width:100%;
+   border:4px red solid;
+}
+#button1
+{
+    width:10%;
+    height:40px;
+    background-color:#e066ff; 
+}
+#button2
+{ 
+  width:10%;
+  height:40px;
+  background-color:#e066ff; 
+}
+#button1:hover
+{
+   background-color:#0099ff;
+   font-weight:bold;
+   
+}
+#button2:hover
+{
+   background-color:#0099ff;
+   font-weight:bold;
+}
+
+#map
+{
+  display:inline;
+  background-color:transparent;
+}
+.name
+{
+   width:25%;
+   padding-bottom:2%;
+}
+.email
+{
+   width:25%;
+   height:30px;
+}
+.message
+{
+  width:25%;
+}
+
+@media screen and (min-width:320px) and (max-width:780px)
+{
+ #sitename,h2
+    {
+      font-size:100%;
+    }
+   .getintouch
+    {
+      margin-top:1%;
+      padding:1%;
+     }
+    #form
+    {
+      width:100%;
+      margin-top:1%;
+      padding-top:1%;
+    } 
+
+    #button1
+    {
+      width:30%;
+    }
+    
+   #button2
+    {
+      width:30%;
+    }
+    
+    nav:hover ul
+    {
+      width:24%;
+    }
+	
+}

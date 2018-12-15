@@ -1,0 +1,142 @@
+.maincontent
+{
+   border-radius:5px;
+   line-height:25px;
+}
+.content
+{
+  width:60%;
+  float:right;
+} 
+  
+.topcontent
+{ 
+  width:60%; 
+  padding-bottom:90%;
+  border-radius:5px;
+  padding:3% 5%;
+  margin:3% 0% 0% 15%;
+  background-color:#ff66ff;
+}
+.bottomcontent
+{
+  width:60%;
+  padding-bottom:90%; 
+  border-radius:5px;
+  padding:3% 5%;
+  margin:3% 0% 3% 15%;
+  background-color:#33cccc;
+}
+.topbar
+{
+  width:30%;
+  float:left;
+  border-radius:5px; 
+  margin:1% 0% 3% 0%;
+  padding:2% 3%;
+  background-color:red;
+  padding-bottom: 66%
+  background-size: contain;
+  background-position: center;
+}
+.middlebar
+{
+  width:30%;
+  float:left;
+  border-radius:5px;
+  margin:1% 0% 3% 0%;
+  padding:2% 3%;
+  background-color:green;
+  padding-bottom: 66%
+  background-size:contain;
+  background-position:center;
+}
+.bottombar
+{
+  width:30%;
+  float:left;
+  border-radius:5px;
+  margin:1% 0% 3% 0%;
+  padding:2% 3%;
+  background-color:orange;
+  padding-bottom:66%
+  background-size:contain;
+  background-position:center;
+}
+ figure
+ {
+   margin:1em 0;
+ }
+img
+{
+   max-width:100%;
+   vertical-align:middle;
+   border:0;
+}
+
+@media screen and (min-width:150px) and (max-width:600px)
+{
+   .maincontent
+   {   
+     width:100%
+     border-radius:5px
+     background-color:pink;
+     top-margin:20%;
+    }
+   .content
+   {
+     width:80%;
+     float:left;
+   } 
+  
+    .topcontent
+   { 
+     width:100%; 
+     border-radius:5px;
+     padding:3% 5%;
+     margin:6% 0% 0% 5%;
+     float:left;
+   }
+   .bottomcontent
+   {
+     width:100%;
+     border-radius:5px;
+     padding:3% 5%;
+     margin:7% 0% 0% 5%;
+     background-color:#33cccc;
+     float:left;
+    }
+   .topbar
+    {
+      width:21%;
+      height:120px;
+      float:left;
+      margin:1% 0% 1% 0%;
+      padding:2% 3%;
+      background-color:transparent;
+     }
+    .middlebar
+    {
+      width:21%;
+     height:120px;
+     float:left;
+     border-radius:5px;
+     margin:1% 0% 1% 0%;
+     padding:2% 3%;
+     background-color:transparent;
+    }
+   .bottombar
+   {
+     width:21%;
+     height:120px;
+     float:left;
+     margin:1% 0% 1% 0%;
+     padding:2% 3%;
+     background-color:transparent;
+    }
+    #bottomfooter
+    {
+      width:100%;
+      text-align:center;
+    }
+}  

@@ -1,0 +1,45 @@
+
+#pricetable 
+{ 
+   width: 100%;
+   border: 2px outset black;
+   empty-cells: hide;
+   background-color: #ffb3ff;
+   table-layout:fixed;
+   margin:10 10 10 20;
+   overflow-x:auto;
+  		
+}
+caption
+{
+  font-wight:bold;
+  font-size:200%;
+  padding-bottom:3%;
+}
+#pricetable td
+{
+   border: 1px solid black;
+   padding: 5px;
+   background-color:#99ceff;
+}
+tr > th,td
+{
+ padding:4px;
+ text-align:center;
+ 
+}
+#pricetable::first-line
+{
+    color:blue;
+}
+tr:hover
+{
+  background-color:#c653c6;
+}  
+@media screen and (min-width:320px) and (max-width:780px)
+{
+	#pricetable 
+   { 
+     width: 100%;
+   }   
+}	
